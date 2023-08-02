@@ -8,15 +8,24 @@
   margin: 0;
 }
 
+.imgHolder {
+  /* position: relative; */
+  height: 750px;
+  width: 500px;
+}
+
 .userCard {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: var(--card-width);
-  border: 1px solid plum;
+  border: 2px solid plum;
   border-radius: 10px;
   overflow: hidden;
-  margin: 5px;
+  background: white;
+  background: transparent;
+  margin: -690px 50px;
   color: grey;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -24,9 +33,8 @@
 .userCardHeader {
   width: 100%;
   height: calc(var(--card-width) / 2);
-  border: 1px solid plum;
-  background: lightgrey
-    url(https://images.pexels.com/photos/634548/pexels-photo-634548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* border: 1px solid plum; */
+  background: lightgrey;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -82,7 +90,7 @@
 }
 
 .socialsItem {
-  opacity: 60%;
+  opacity: 80%;
   font-size: 25px;
   padding: 50px 0 20px;
 }
