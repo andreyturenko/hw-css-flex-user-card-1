@@ -1,5 +1,5 @@
 :root {
-  --card-width: 400px;
+  --card-width: 300px;
 }
 
 * {
@@ -10,8 +10,8 @@
 
 .imgHolder {
   /* position: relative; */
-  height: 750px;
-  width: 500px;
+  height: 550px;
+  width: 310px;
 }
 
 .userCard {
@@ -25,7 +25,7 @@
   overflow: hidden;
   background: white;
   background: transparent;
-  margin: -690px 50px;
+  margin: -550px 5px;
   color: grey;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -52,7 +52,7 @@
 }
 
 .userName {
-  font-size: 40px;
+  font-size: 32px;
   padding: 20px 10px 10px;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .socialsItem {
-  opacity: 80%;
+  opacity: 90%;
   font-size: 25px;
   padding: 50px 0 20px;
 }
